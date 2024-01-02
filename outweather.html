@@ -13,15 +13,15 @@
   <body>
     <div class="apper" id="outside-app">
     <header>
-<form class="searchInput">
-  <input type="search" placeholder="Enter a city" required class="searcher">
-  <input type="submit" value="search" class="searchButton">
+<form class="searchInput" id="search-form">
+  <input type="search" placeholder="Enter a city" required class="searcher" id="search-bar">
+  <input type="submit" value="search" class="searchButton" id="search-button">
 </form>
     </header>
     <div>
     <main>
         
-    <h1>Colton</h1>
+    <h1 id="city-name">Colton</h1>
     
     <p>
       Sunday 8:34, cloudy
@@ -42,5 +42,7 @@
       website hosted on <a href="https://outside-weather-21d26a.netlify.app" target ="_blank">Netlify</a>
     </footer>
     </div>
+
+    <script src="designer/outside.js"></script>
   </body>
 </html>
