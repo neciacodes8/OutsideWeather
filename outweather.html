@@ -13,25 +13,26 @@
   <body>
     <div class="apper" id="outside-app">
     <header>
-<form >
-  <input type="search" placeholder="Enter a city" required>
-  <input type="submit" value="search">
+<form class="searchInput">
+  <input type="search" placeholder="Enter a city" required class="searcher">
+  <input type="submit" value="search" class="searchButton">
 </form>
     </header>
+    <div>
     <main>
-      <div>
-        <div class="cityName">
+        
     <h1>Colton</h1>
-    </div>
+    
     <p>
       Sunday 8:34, cloudy
       <br />
-      Humidity: 77%
-      Wind: 2mph
+      Humidity: <strong>77%</strong> 
+      Wind: <strong>2mph</strong> 
     </p>
     </div>
-    <div>
-      <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy"/>52°F
+    <div class="appTempContainer">
+    <div class="iconPic">
+      <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy"> </div> <div class="numberTemp">52</div> <div class="degreeUnit">°F</div>
     </div>
     </main>
     <footer>

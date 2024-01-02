@@ -4,15 +4,94 @@ font-family: 'Single Day', cursive;
 }
 
 .apper{
-    background-color: #bad8b6;
+    background-color: #ecf4f3;
     max-width: 500px;
     margin: 30px auto;
-    box-shadow: 10px 5px 5px 5px whitesmoke;
+    box-shadow: 0 30px 50px whitesmoke;
     border-radius: 10px;
     padding:20px;
 
 }
 
-.cityName{
+header{
+    border-bottom: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+.searcher{
+    background-color: #e1eacd;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Single Day', cursive;
+
+
+}
+
+.searchButton{
+    background-color: #01352c;
+    font-size: 18px;
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-family: 'Single Day', cursive;
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1{
     font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    line-height: 25px;
+
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+p strong{
+    color: #61b390;
+}
+
+.appTempContainer{
+    display: flex   ;
+    justify-content: center;
+}
+
+
+.iconPic{
+    font-size: 40px;
+    margin-top: 10px;
+   
+}
+
+.numberTemp{
+    font-size: 70px;
+    font-weight: bold;
+    
+
+}
+
+.degreeUnit{
+    margin-top: 16px;
+    font-size: 28px;
+
+}
+
+footer{
+    border-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
 }
