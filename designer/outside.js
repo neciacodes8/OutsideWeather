@@ -17,8 +17,8 @@ windElement.innerHTML=`${response.data.wind.speed}mph`;
   let clockElement = document.querySelector("#clock-day");
   let date = new Date(response.data.time * 1000);
   clockElement.innerHTML = formatDate(date);
-
-  
+let weatherPic = document.querySelector("#weather-pic");
+  weatherPic .innerHTML= `<img src=${response.data.condition.icon_url} class="iconPic"/>`;
   
 }
 

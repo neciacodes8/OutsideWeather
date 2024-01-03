@@ -4,7 +4,7 @@ font-family: 'Single Day', cursive;
 }
 
 .apper{
-    background-color: #ecf4f3;
+    background-color: #118a7e;
     max-width: 500px;
     margin: 30px auto;
     box-shadow: 0 30px 50px whitesmoke;
@@ -50,7 +50,7 @@ main{
 
 h1{
     font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-size: 47px;
     line-height: 25px;
 
 }
@@ -70,6 +70,7 @@ p strong{
 
 
 .iconPic{
+    
     font-size: 40px;
     margin-top: 10px;
    
@@ -93,5 +94,5 @@ footer{
     padding: 20px;
     text-align: center;
     font-size: 13px;
-    color: grey;
+    color:#afc5ff;
 }
