@@ -5,7 +5,7 @@ font-family: 'Single Day', cursive;
 
 .apper{
     background-color: #118a7e;
-    max-width: 500px;
+    max-width: 550px;
     margin: 30px auto;
     box-shadow: 0 30px 50px whitesmoke;
     border-radius: 10px;
@@ -43,15 +43,16 @@ header{
 }
 
 main{
-    display: flex;
+    display: flow-root;
     justify-content: space-between;
     padding: 10px;
 }
 
 h1{
     font-family: 'Playfair Display', serif;
-    font-size: 47px;
+    font-size: 80px;
     line-height: 25px;
+    text-align: center;
 
 }
 
@@ -64,21 +65,24 @@ p strong{
 }
 
 .appTempContainer{
-    display: flex   ;
-    justify-content: center;
+    display: flex  ;
+    justify-content: right;
+    
+    
 }
 
 
 .iconPic{
-    
+    margin-top: 16px;
     font-size: 40px;
-    margin-top: 10px;
+    
    
 }
 
 .numberTemp{
     font-size: 70px;
     font-weight: bold;
+
     
 
 }
@@ -89,8 +93,11 @@ p strong{
 
 }
 
+
+
+
 footer{
-    border-top: 10px;
+    border-top:10 px;
     padding: 20px;
     text-align: center;
     font-size: 13px;
