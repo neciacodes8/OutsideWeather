@@ -43,9 +43,10 @@ header{
 }
 
 main{
-    display: flow-root;
+    display: block;
     justify-content: space-between;
     padding: 10px;
+    text-align: center;
 }
 
 h1{
@@ -58,7 +59,7 @@ h1{
 
 p{
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 p strong{
     color: #61b390;
@@ -66,17 +67,14 @@ p strong{
 
 .appTempContainer{
     display: flex  ;
-    justify-content: right;
-    
-    
+   justify-content: center; 
+    margin-top: 16px; 
 }
 
 
 .iconPic{
-    margin-top: 16px;
-    font-size: 40px;
+    font-size: 70px;
     
-   
 }
 
 .numberTemp{
@@ -88,7 +86,7 @@ p strong{
 }
 
 .degreeUnit{
-    margin-top: 16px;
+   
     font-size: 28px;
 
 }
