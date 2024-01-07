@@ -66,20 +66,31 @@ p strong{
 }
 
 .appTempContainer{
-    display: flex  ;
-   justify-content: center; 
-    margin-top: 16px; 
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+text-decoration: wavy;
+text-align: center;
+bottom: 10px;
+
+   
+    
+    
 }
 
 
 .iconPic{
     font-size: 70px;
     
+    
+    
 }
 
 .numberTemp{
+    
     font-size: 70px;
     font-weight: bold;
+    
 
     
 
