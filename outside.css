@@ -66,44 +66,23 @@ p strong{
 }
 
 .appTempContainer{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-text-decoration: wavy;
-text-align: center;
-bottom: 10px;
-
-   
-    
-    
+display: flex;
+justify-content: center;  
 }
 
 
 .iconPic{
-    font-size: 70px;
-    
-    
-    
+    width: 130px;     
 }
 
 .numberTemp{
-    
-    font-size: 70px;
+     font-size: 70px;
     font-weight: bold;
-    
-
-    
-
 }
 
 .degreeUnit{
-   
     font-size: 28px;
-
 }
-
-
-
 
 footer{
     border-top:10 px;
